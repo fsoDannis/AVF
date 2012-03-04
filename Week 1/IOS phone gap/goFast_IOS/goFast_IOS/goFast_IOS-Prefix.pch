@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'goFast_IOS' target in the 'goFast_IOS' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
