@@ -1,0 +1,252 @@
+<!DOCTYPE html> 
+<!-- DAN ANNIS 3/1/2012 AVF WEEK 1 -->
+<html> 
+<head>
+	<title>Dannis Designs</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="description" content="HOME PAGE" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	
+	<!-- Mobile Stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Clear Fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- CSS -->
+    <link rel="stylesheet" href="themes/AVF_New.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+	
+	<!-- Modernizr for HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+<style> 
+.short-footer {
+height: 31px;
+background: #000;
+padding-top: 0px;
+margin-top: 0px;
+}
+.nav{
+	border-style: none;
+}
+.ui-controlgroup, fieldset.ui-controlgroup {
+    margin: 0px 0px 1px 20px;
+    padding: 0;
+}
+
+.ui-btn-text{
+	font-size: 14px;
+}
+.discussion{
+	white-space:normal;
+}
+.sore{
+	color: #a40303;
+	font-size:14px;
+	text-shadow:none;
+}
+li {
+	text-shadow:none !Important;
+}
+
+p {
+	font-size:13px;
+	text-shadow:none !Important;
+}
+#apps{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-100px 0px;
+}
+#apps:hover,#apps:active  { background-position:-100px 100px; }
+
+#video{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-200px 0px;
+}
+#video:hover,#video:active  { background-position:-200px 100px; }
+
+#native2{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-300px 0px;
+}
+#native2:hover,#native2:active  { background-position:-300px 100px; }
+
+#researchd{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-400px 0px;
+}
+#researchd:hover,#researchd:active  { background-position:-400px 100px; }
+
+video {
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+}
+      
+.video-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+      
+
+
+
+ .wrapper{width: 245px; margin: 0 auto;} 
+ .wrapper ul{padding: 0; margin:0;}
+ .wrapper ul li { display: inline-block; height: 100px; width:100px; padding: 0 10px 0;}
+ .wrapper ul li a {height: 100px; width: 100px; display: block;}
+
+
+</style>
+
+</head>
+<body>
+		<div data-role="page" data-theme="a">
+			<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Dannis Designs</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+				<div class="wrapper">
+			 		<ul> 
+					 	<li><a href="https://fsodannis.cloudant.com/gofast/_design/newgofast/index.html" id="apps" class="ui-link"></a></li>
+					 	<li><a href="#myvids" id="video" class="ui-link"></a></li>
+					 	<li><a href="#" id="native2" class="ui-link"></a></li>
+					 	<li><a href="#research" id="researchd" class="ui-link"></a></li>
+			 		</ul> 
+			 	</div>
+			 	<br>
+			 	<br>
+			 	<br>
+			</div><!-- End Content-->
+		
+			<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+			</div>	
+		</div>
+		
+		<div data-role="page" id="research" data-theme="b" data-add-back-btn="true">
+				<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Research Topics</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+				
+			 		<ul data-role="listview"> 
+					 	<li><a href="#week1-discussion"  >Industry Research and Project Intent </a></li>
+					 	<li><a href="#"  >Week 2</a></li>
+					 	<li><a href="#"  >Week 3</a></li>
+					 	<li><a href="#"  >Week 4</a></li>
+			 		</ul> 
+			 	
+			
+			</div><!-- End Content-->
+		
+			<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+			</div>		
+		</div>
+		
+		<div data-role="dialog" id="week1-discussion">
+
+		    <div data-role="header" data-theme="a">
+		        <h1 class="discussion">Discussion</h1>
+		    </div>
+		    <div data-role="content" class="profile-content">
+				<h4 class="sore"> What types of native features (on Android and iOS devices) would you be able to implement with the use of HTML/CSS/JS only? (just a hint - iOS can be the tricky one)</h4>
+					<p>It looks like we will be able to do a lot of things with just the basic scripting of HTML,CSS, JS. Things like the Camera, Accelerometer, Camera, Contacts, Storage... There are a lot more...  </p>
+				<h4 class="sore"> For your CRUD app revision, which of these do you think you will implement?</h4>
+					<p>I wil definitely add the GeoLocation because people need to know where to go. Wouldn't hurt to snap some images too, So I could use that... I think silly things like a shake to go back would be good too. </p>
+				<h4 class="sore"> Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</h4>
+					<p>Well, I think doing the research early and ahead of time is definitely a start. You also need to be able to see the end. Not seeing the Big Picture can result in many many refactoring hours. </p>
+				<h4 class="sore">Please describe any design intentions you may have for the AVF Demo app and the revised/new version of your CRUD app.</h4>
+					<p>Most of my CRUD is working... So that would be good to finish that, and I think adding the few elements will also be good. I am not sure how the app is going to look on a bigger screen, so figuring out the responsiveness of the app will be neat to see.</p>
+				<h4 class="sore">If not covered above, please also describe any functionality intentions you may have for both the AVF Demo app and the revised/new version of your CRUD app.</h4>
+					<p>I really would like to see a sign in/login part... Have some hidden elements. My app would be for the user and the developer. Obviously some things need to be not updateable.</p>
+			</div>
+		</div>
+	
+		<div data-role="page" id="myvids" data-theme="b" data-add-back-btn="true">
+				<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Weekly Videos</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+				
+			 		<ul data-role="listview"> 
+					 	<li><a href="#video1"  >PhoneGap with iOS and Android </a></li>
+					 	<li><a href="#"  >Week 2</a></li>
+					 	<li><a href="#"  >Week 3</a></li>
+					 	<li><a href="#"  >Week 4</a></li>
+			 		</ul> 
+			 	
+			
+			</div><!-- End Content-->
+		
+			<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+			</div>		
+		</div>
+		
+		
+			<div data-role="page" id="video1" data-theme="b" data-add-back-btn="true">
+				<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Reflection Video 1  !</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+			    <div class="video-container">
+				      <video poster="videos/week1.mov" controls>
+				        <source src="videos/week1.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+				      </video>
+				</div>
+				    
+
+			
+			</div><!-- End Content-->
+			
+		<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+		</div>		
+		</div>
+	
+	</div>
+	<!-- Some Scripts -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script
+</body>
+</html>
