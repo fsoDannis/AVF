@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <!-- Change this if you want to allow scaling -->
+        <meta name="viewport" content="width=device-width; user-scalable=yes" />
+        
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <title>Notifications </title>
+
+            <link rel="stylesheet" href="themes/AVF_New.min.css" />
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+            <script type="text/javascript" charset="utf-8" src="../phonegap-1.4.1.js"></script>
+ 
+  			<script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+            </head>
+        <body onload="onBodyLoad()">
+         <header role="banner">
+			<h2>Notifications</h2>
+
+		</header>
+		<nav role="navigation">
+
+		</nav>
+			<section role="main">
+				<h1>Try out each type of alert.</h1>
+			    <p align="center"><button onclick="showAlert();">Try Alert</button></p>
+			    <p align="center"><button onclick="showConfirm();">Try Confirm</button></p>
+			    <p align="center"><button onclick="playBeep();">Play Beep</button></p>
+                <p align="center"><button onclick="vibrate();">Vibrate</button></p>
+			</section>
+			<footer role="contentinfo">
+				<p><a href="../index.html">Home Page</a></p>
+			    <p id="phoneGapReady" class="phoneGapReady">waiting for PhoneGap to initialize....</p>
+			</footer>
+	   </body>
+</html>
