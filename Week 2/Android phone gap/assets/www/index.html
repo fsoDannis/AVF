@@ -136,7 +136,7 @@ video {
 			 		<ul> 
 					 	<li><a href="https://fsodannis.cloudant.com/gofast/_design/newgofast/index.html" id="apps" class="ui-link"></a></li>
 					 	<li><a href="#myvids" id="video" class="ui-link"></a></li>
-					 	<li><a href="#" id="native2" class="ui-link"></a></li>
+					 	<li><a href="#native" id="native2" class="ui-link"></a></li>
 					 	<li><a href="#research" id="researchd" class="ui-link"></a></li>
 			 		</ul> 
 			 	</div>
@@ -162,7 +162,7 @@ video {
 				
 			 		<ul data-role="listview"> 
 					 	<li><a href="#week1-discussion"  >Industry Research and Project Intent </a></li>
-					 	<li><a href="#"  >Week 2</a></li>
+					 	<li><a href="#week2-discussion"  >Accessibility</a></li>
 					 	<li><a href="#"  >Week 3</a></li>
 					 	<li><a href="#"  >Week 4</a></li>
 			 		</ul> 
@@ -206,7 +206,7 @@ video {
 				
 			 		<ul data-role="listview"> 
 					 	<li><a href="#video1"  >PhoneGap with iOS and Android </a></li>
-					 	<li><a href="#"  >Week 2</a></li>
+					 	<li><a href="#video2"  >PhoneGap and Native Features</a></li>
 					 	<li><a href="#"  >Week 3</a></li>
 					 	<li><a href="#"  >Week 4</a></li>
 			 		</ul> 
@@ -219,6 +219,48 @@ video {
 			</div>		
 		</div>
 		
+    <div data-role="dialog" id="week2-discussion">
+        
+        <div data-role="header" data-theme="a">
+            <h1 class="discussion">Discussion</h1>
+        </div>
+        <div data-role="content" class="profile-content">
+            <h4 class="sore"> What are some of the ways that you could change your HTML on your Demo app to be more accessible?</h4>
+            <p>The entire thing! I am currently working on a new HTML Demo page... You can see it<a class="ui-link" href="http://dinkydetails.com/FSO/Test/index.html">here.</a> Although JQM is great.. i am learning day by day that CSS,JS, and just HTML is a great way to go!  </p>
+            <h4 class="sore"> Visit a video service on the web (like YouTube) and search for "Screen Reader Demo" and "Mobile Screen Reader" - what are some of the common frustrations (or common support mechanisms) that you see among the examples that are given - how could you fix them (or use them)?</h4>
+            <p> It seems it is all in the markup.. There isn't magic reader coding, you typically have to come up with the formatting, naming and everything in between. A site could have some sort of naming, or tagging, for readers. That could eliminate some issues, but ultimately it comes down to proper design and execution. </p>
+            <h4 class="sore"> Devices: Please list two devices (and some of their features) that are made specifically to support Accessibility..</h4>
+            <p>Iphone - The iphone has BIG FONT in their accessibility options. For people like my mom... her texting is like size 50 font!</p>
+            <p> Android - Android has similiar features as well including things like Talkback and TextToSpeech.
+            <h4 class="sore">Mobile Apps: Please list two apps (either Android or iOS, or both) that are made specifically to support Accessibility.</h4>
+            <p>I am not sure BabySign is really what we are looking for, but you can learn sign language just by using it. Things like iPhoto, iMovie, and any other photo app, really llet your Accessibility feelers go wild. You can easily zoom into a picture for those that may not be able to see the kids smile from the smaller image. </p>
+        </div>
+    </div>
+	
+    <div data-role="page" id="myvids" data-theme="b" data-add-back-btn="true">
+        <div data-role="header" data-position="inline" data-theme="a">
+            <h1>Weekly Videos</h1>
+        </div>
+        
+        <div data-role="content" data-theme="a">
+            <center>
+                <img src="images/me.jpg">
+                    </center><br>
+            
+            <ul data-role="listview"> 
+                <li><a href="#video1"  >PhoneGap with iOS and Android </a></li>
+                <li><a href="#video2"  >PhoneGap and Native Features</a></li>
+                <li><a href="#"  >Week 3</a></li>
+                <li><a href="#"  >Week 4</a></li>
+            </ul> 
+            
+			
+        </div><!-- End Content-->
+		
+        <div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+        </div>		
+    </div>
 		
 			<div data-role="page" id="video1" data-theme="b" data-add-back-btn="true">
 				<div data-role="header" data-position="inline" data-theme="a">
@@ -234,14 +276,53 @@ video {
 				        <source src="videos/week1.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 				      </video>
 				</div>
-				    
+				</div>
+                </div>
+                
+                <div data-role="page" id="video2" data-theme="b" data-add-back-btn="true">
+                    <div data-role="header" data-position="inline" data-theme="a">
+                        <h1>Reflection Video 2 </h1>
+                    </div>
+                    
+                    <div data-role="content" data-theme="a">
+                        <center>
+                            <img src="images/me.jpg">
+                                </center><br>
+                        <div class="video-container">
+                            <video poster="videos/week2.mov" controls>
+                                <source src="videos/week2.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                            </video>
+                        </div>
 
 			
 			</div><!-- End Content-->
+             
 			
 		<div data-theme="a"  data-role="footer" data-position="fixed">
 			<center>-- Dan Annis 03/01/12 --</center>	
-		</div>		
+		</div>	
+              </div>   
+                
+                <div data-role="page" id="native" data-theme="b" data-add-back-btn="true">
+                    <div data-role="header" data-position="inline" data-theme="a">
+                        <h1>Native Features </h1>
+                    </div>
+                    
+                    <div data-role="content" data-theme="a">
+                        <ul data-role="listview">
+                           <li><a href="geo/geo.html">geo</a></li>
+                               <li>  <a href="accl/accl.html">accl</a></li>
+                           <li> <a href="notify/notify.html">notify</a></li>
+                                </ul><br>
+                    
+                        
+                        
+                    </div><!-- End Content-->
+                    
+                    <div data-theme="a"  data-role="footer" data-position="fixed">
+                        <center>-- Dan Annis 03/01/12 --</center>	
+                    </div>	
+               
 		</div>
 	
 	</div>

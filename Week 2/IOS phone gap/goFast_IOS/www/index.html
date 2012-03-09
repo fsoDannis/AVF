@@ -162,7 +162,7 @@ video {
 				
 			 		<ul data-role="listview"> 
 					 	<li><a href="#week1-discussion"  >Industry Research and Project Intent </a></li>
-					 	<li><a href="#week2-discussion"  >Week 2</a></li>
+					 	<li><a href="#week2-discussion"  >Accessibility</a></li>
 					 	<li><a href="#"  >Week 3</a></li>
 					 	<li><a href="#"  >Week 4</a></li>
 			 		</ul> 
@@ -206,7 +206,7 @@ video {
 				
 			 		<ul data-role="listview"> 
 					 	<li><a href="#video1"  >PhoneGap with iOS and Android </a></li>
-					 	<li><a href="#video2"  >Week 2</a></li>
+					 	<li><a href="#video2"  >PhoneGap and Native Features</a></li>
 					 	<li><a href="#"  >Week 3</a></li>
 					 	<li><a href="#"  >Week 4</a></li>
 			 		</ul> 
@@ -225,16 +225,15 @@ video {
             <h1 class="discussion">Discussion</h1>
         </div>
         <div data-role="content" class="profile-content">
-            <h4 class="sore"> What types of native features (on Android and iOS devices) would you be able to implement with the use of HTML/CSS/JS only? (just a hint - iOS can be the tricky one)</h4>
-            <p>It looks like we will be able to do a lot of things with just the basic scripting of HTML,CSS, JS. Things like the Camera, Accelerometer, Camera, Contacts, Storage... There are a lot more...  </p>
-            <h4 class="sore"> For your CRUD app revision, which of these do you think you will implement?</h4>
-            <p>I wil definitely add the GeoLocation because people need to know where to go. Wouldn't hurt to snap some images too, So I could use that... I think silly things like a shake to go back would be good too. </p>
-            <h4 class="sore"> Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</h4>
-            <p>Well, I think doing the research early and ahead of time is definitely a start. You also need to be able to see the end. Not seeing the Big Picture can result in many many refactoring hours. </p>
-            <h4 class="sore">Please describe any design intentions you may have for the AVF Demo app and the revised/new version of your CRUD app.</h4>
-            <p>Most of my CRUD is working... So that would be good to finish that, and I think adding the few elements will also be good. I am not sure how the app is going to look on a bigger screen, so figuring out the responsiveness of the app will be neat to see.</p>
-            <h4 class="sore">If not covered above, please also describe any functionality intentions you may have for both the AVF Demo app and the revised/new version of your CRUD app.</h4>
-            <p>I really would like to see a sign in/login part... Have some hidden elements. My app would be for the user and the developer. Obviously some things need to be not updateable.</p>
+            <h4 class="sore"> What are some of the ways that you could change your HTML on your Demo app to be more accessible?</h4>
+            <p>The entire thing! I am currently working on a new HTML Demo page... You can see it<a class="ui-link" href="http://dinkydetails.com/FSO/Test/index.html">here.</a> Although JQM is great.. i am learning day by day that CSS,JS, and just HTML is a great way to go!  </p>
+            <h4 class="sore"> Visit a video service on the web (like YouTube) and search for "Screen Reader Demo" and "Mobile Screen Reader" - what are some of the common frustrations (or common support mechanisms) that you see among the examples that are given - how could you fix them (or use them)?</h4>
+            <p> It seems it is all in the markup.. There isn't magic reader coding, you typically have to come up with the formatting, naming and everything in between. A site could have some sort of naming, or tagging, for readers. That could eliminate some issues, but ultimately it comes down to proper design and execution. </p>
+            <h4 class="sore"> Devices: Please list two devices (and some of their features) that are made specifically to support Accessibility..</h4>
+            <p>Iphone - The iphone has BIG FONT in their accessibility options. For people like my mom... her texting is like size 50 font!</p>
+            <p> Android - Android has similiar features as well including things like Talkback and TextToSpeech.
+            <h4 class="sore">Mobile Apps: Please list two apps (either Android or iOS, or both) that are made specifically to support Accessibility.</h4>
+            <p>I am not sure BabySign is really what we are looking for, but you can learn sign language just by using it. Things like iPhoto, iMovie, and any other photo app, really llet your Accessibility feelers go wild. You can easily zoom into a picture for those that may not be able to see the kids smile from the smaller image. </p>
         </div>
     </div>
 	
@@ -250,7 +249,7 @@ video {
             
             <ul data-role="listview"> 
                 <li><a href="#video1"  >PhoneGap with iOS and Android </a></li>
-                <li><a href="#video2"  >Week 2</a></li>
+                <li><a href="#video2"  >PhoneGap and Native Features</a></li>
                 <li><a href="#"  >Week 3</a></li>
                 <li><a href="#"  >Week 4</a></li>
             </ul> 
@@ -277,7 +276,8 @@ video {
 				        <source src="videos/week1.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 				      </video>
 				</div>
-				    
+				</div>
+                </div>
                 
                 <div data-role="page" id="video2" data-theme="b" data-add-back-btn="true">
                     <div data-role="header" data-position="inline" data-theme="a">
@@ -296,6 +296,7 @@ video {
 
 			
 			</div><!-- End Content-->
+             
 			
 		<div data-theme="a"  data-role="footer" data-position="fixed">
 			<center>-- Dan Annis 03/01/12 --</center>	
@@ -308,11 +309,11 @@ video {
                     </div>
                     
                     <div data-role="content" data-theme="a">
-                        <center>
-                           <a href="geo/geo.html">geo</a>
-                             <a href="accl.html">accl</a>
-                            <a href="notify.html">notify</a>
-                                </center><br>
+                        <ul data-role="listview">
+                           <li><a href="geo/geo.html">geo</a></li>
+                               <li>  <a href="accl/accl.html">accl</a></li>
+                           <li> <a href="notify/notify.html">notify</a></li>
+                                </ul><br>
                     
                         
                         
