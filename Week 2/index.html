@@ -1,251 +1,252 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html> 
+<!-- DAN ANNIS 3/1/2012 AVF WEEK 1 -->
+<html> 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Dannis Designs</title>
-	<meta name="viewport" content="width = 1100">
-	<meta http-equiv="imagetoolbar" content="no">
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="description" content="HOME PAGE" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
 	
-	<link rel="stylesheet" href="static/css/style.css" type="text/css" media="screen" charset="utf-8">
+	<!-- Mobile Stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<!-- Clear Fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- CSS -->
+    <link rel="stylesheet" href="themes/AVF_New.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+	
+	<!-- Modernizr for HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
 
-	
-	<!-- <script type="text/javascript" charset="utf-8" src="static/js/jquery.min.js"></script> -->
-	<script type="text/javascript" charset="utf-8" src="static/js/jquery.hashchange.js"></script>
-	<script type="text/javascript" charset="utf-8" src="static/js/main.js"></script>
-	
-	<noscript><style>body {visibility:visible}</style></noscript>
-	
+<style> 
+.short-footer {
+height: 31px;
+background: #000;
+padding-top: 0px;
+margin-top: 0px;
+}
+.nav{
+	border-style: none;
+}
+.ui-controlgroup, fieldset.ui-controlgroup {
+    margin: 0px 0px 1px 20px;
+    padding: 0;
+}
+
+.ui-btn-text{
+	font-size: 14px;
+}
+.discussion{
+	white-space:normal;
+}
+.sore{
+	color: #a40303;
+	font-size:14px;
+	text-shadow:none;
+}
+li {
+	text-shadow:none !Important;
+}
+
+p {
+	font-size:13px;
+	text-shadow:none !Important;
+}
+#apps{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-100px 0px;
+}
+#apps:hover,#apps:active  { background-position:-100px 100px; }
+
+#video{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-200px 0px;
+}
+#video:hover,#video:active  { background-position:-200px 100px; }
+
+#native2{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-300px 0px;
+}
+#native2:hover,#native2:active  { background-position:-300px 100px; }
+
+#researchd{
+  width:100px;
+  height:100px;
+  text-decoration:none;
+  display:block;
+  background-image:url(images/logo.jpg);
+  background-position:-400px 0px;
+}
+#researchd:hover,#researchd:active  { background-position:-400px 100px; }
+
+video {
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+}
+      
+.video-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+      
+
+
+
+ .wrapper{width: 245px; margin: 0 auto;} 
+ .wrapper ul{padding: 0; margin:0;}
+ .wrapper ul li { display: inline-block; height: 100px; width:100px; padding: 0 10px 0;}
+ .wrapper ul li a {height: 100px; width: 100px; display: block;}
+
+
+</style>
+
 </head>
 <body>
-
-	<div id="home">
-		<div class="top">
-			<span class="left">2011</span>
-			<a href="index.html"><img src="images/logo.png" width="135" height="100" alt="Dannis Designs"></a>
-			<span class="right">2012</span>
-		</div>
-		<h1>Dannis Designs</h1>
-
-		<h2>Mobile Development - Full Sail University</h2>
-		<div id="nav">
-			<ul>
-				<li>
-					<h3><span class="show" content="apps">Apps</span></h3>
-					<p>Here you will see all my apps I've designed.</p>
-				</li>
-				<li>
-					<h3><span class="show" content="weekly"> Weekly</span></h3>
-					<p>Here lies all my AVF Weekly files.</p>
-				</li>
-				<li>
-					<h3><span class="show" content="native">Native Features</span></h3>
-					<p>Take a look at the Native Features we can include for iPhone / Android. </p>
-				</li>
-				<li class="last">
-					<h3><span class="show" content="info">Info</span></h3>
-					<p>Need to know more about this character named Dannis?</p>
-
-				</li>
-			</ul>
-		</div>
-		<div class="footer" id="topfooter">
-			<small>Copyright &copy; 2011 Dannis Designs</small>
-		</div>
-	</div>
-
-	<div id="content">
-		<div class="content apps">
-			<div class="wrap">
-	<div class="about">
-		<h3>How it all started...</h3>
+		<div data-role="page" data-theme="a">
+			<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Dannis Designs</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+				<div class="wrapper">
+			 		<ul> 
+					 	<li><a href="https://fsodannis.cloudant.com/gofast/_design/newgofast/index.html" id="apps" class="ui-link"></a></li>
+					 	<li><a href="#myvids" id="video" class="ui-link"></a></li>
+					 	<li><a href="#" id="native2" class="ui-link"></a></li>
+					 	<li><a href="#research" id="researchd" class="ui-link"></a></li>
+			 		</ul> 
+			 	</div>
+			 	<br>
+			 	<br>
+			 	<br>
+			</div><!-- End Content-->
 		
-		<p> Some Info</p>
-		<p> Maybe some more Info</p>
-		<p> And if need be... some more. </p>
+			<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+			</div>	
+		</div>
 		
-	</div>
-	<div class="frazzled_image">
-		<ul>
-			<li>
-				<img src="images/little-award.png" width="24" height="29" alt="Something">
-				<p>Image</p>
-				<small>An image with a look of disarray</small>
-			</li>
-		</ul>
-	</div>
-	<div class="clear"></div>
+		<div data-role="page" id="research" data-theme="b" data-add-back-btn="true">
+				<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Research Topics</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+				
+			 		<ul data-role="listview"> 
+					 	<li><a href="#week1-discussion"  >Industry Research and Project Intent </a></li>
+					 	<li><a href="#"  >Week 2</a></li>
+					 	<li><a href="#"  >Week 3</a></li>
+					 	<li><a href="#"  >Week 4</a></li>
+			 		</ul> 
+			 	
+			
+			</div><!-- End Content-->
+		
+			<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+			</div>		
+		</div>
+		
+		<div data-role="dialog" id="week1-discussion">
 
-	<div class="team">
-		<div class="profile">
-			<div class="thumbnail" style="background-image:url(images/app.png.jpg)">
-				<img class="fade" src="images/app.png">
+		    <div data-role="header" data-theme="a">
+		        <h1 class="discussion">Discussion</h1>
+		    </div>
+		    <div data-role="content" class="profile-content">
+				<h4 class="sore"> What types of native features (on Android and iOS devices) would you be able to implement with the use of HTML/CSS/JS only? (just a hint - iOS can be the tricky one)</h4>
+					<p>It looks like we will be able to do a lot of things with just the basic scripting of HTML,CSS, JS. Things like the Camera, Accelerometer, Camera, Contacts, Storage... There are a lot more...  </p>
+				<h4 class="sore"> For your CRUD app revision, which of these do you think you will implement?</h4>
+					<p>I wil definitely add the GeoLocation because people need to know where to go. Wouldn't hurt to snap some images too, So I could use that... I think silly things like a shake to go back would be good too. </p>
+				<h4 class="sore"> Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</h4>
+					<p>Well, I think doing the research early and ahead of time is definitely a start. You also need to be able to see the end. Not seeing the Big Picture can result in many many refactoring hours. </p>
+				<h4 class="sore">Please describe any design intentions you may have for the AVF Demo app and the revised/new version of your CRUD app.</h4>
+					<p>Most of my CRUD is working... So that would be good to finish that, and I think adding the few elements will also be good. I am not sure how the app is going to look on a bigger screen, so figuring out the responsiveness of the app will be neat to see.</p>
+				<h4 class="sore">If not covered above, please also describe any functionality intentions you may have for both the AVF Demo app and the revised/new version of your CRUD app.</h4>
+					<p>I really would like to see a sign in/login part... Have some hidden elements. My app would be for the user and the developer. Obviously some things need to be not updateable.</p>
 			</div>
-			<a class="facebook" href="https://www.facebook.com/Dannis.Annis">Facebook </a>
-			<h4>CRUD #1</h4>
-			<small>Some info about the App.</small>
-
 		</div>
-		<div class="profile">
-			<div class="thumbnail" style="background-image:url(images/app.png.jpg)">
-				<img class="fade" src="images/app.png">
-			</div>
-			<a class="facebook" href="https://www.facebook.com/Dannis.Annis">Facebook</a>
-			<h4>Future placeholder</h4>
-			<small>Some info about the App.</small>
-		</div>
-		<div class="profile right">
-			<div class="thumbnail" style="background-image:url(images/app.png.jpg)">
-				<img class="fade" src="images/app.png">
-			</div>
-			<a class="facebook" href="https://www.facebook.com/Dannis.Annis">Facebook</a>
-			<h4>Future placeholder</h4>
-			<small>Some info about the App.</small>
-		</div>
-		<div class="ventures">
-			<h3>Helpful People</h3>
-			<p>Some Info</p>
-		</div>
-		<div class="research">
-			<h3>Helpful Links</h3>
-				<p>Some Info</p>
-		</div>
-		<div class="footer">
-			<small>Copyright &copy; 2011 Dannis Designs</small>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-		</div>
-
-		<div class="content weekly">
-			<div class="wrap">
-
-
-  <div class="product container topunit">
-    <div class="versions" onclick="location.href='http://www.video.com';"> <!-- Insert Video -->
-      <a href="Link to Video">
-      <img src="images/1_vid.png" width="296" height="289" alt="Video Week 1">
-      </a>
-      <h5>Week 1</h5>
-
-      <h6 class="sub">Discussion</h6>
-      <h6 class="url"></h6>
-    </div>
-    <div class="versions" onclick="location.href='http://www.video.com';"> <!-- Insert Video -->
-      <a href="Link to Video">
-      <img src="images/2_vid.png" width="296" height="289" alt="Video Week 2">
-      </a>
-      <h5>Week 2</h5>
-
-      <h6 class="sub">Discussion</h6>
-      <h6 class="url"></h6>
-    </div>
-  </div>
-  <div class="development">
-    <p></p>
-  </div>
-
-  <div class="product container">
-    <div class="versions" onclick="location.href='http://www.video.com';"> <!-- Insert Video -->
-      <a href="Link to Video">
-      <img src="images/3_vid.png" width="334" height="289" alt="Video Week 3">
-      </a>
-      <h5>Week 3</h5>
-      <h6 class="sub">Discussion</h6>
-      <h6 class="url"></h6>
-
-    </div>
-    <div class="versions" onclick="location.href='http://www.video.com';"> <!-- Insert Video -->
-      <a href="Link to Video">
-      <img src="images/4_vid.png" width="334" height="289" alt="Video Week 4">
-      </a>
-      <h5>Week 4</h5>
-      <h6 class="sub">Discussion</h6>
-      <h6 class="url"></h6>
-
-    </div>
-  </div>
-  <div class="development">
-    <p></p>
-  </div>
-
-	<div class="footer">
-
-		<small>Copyright &copy; 2011 Dannis Designs</small>
-	</div>
-	<div class="clear"></div>
-</div>
-
-		</div>
-		<div class="content native">
-			<div class="wrap">
-
-  <div class="facebook container">
-    <img src="images/native.png" width="430" height="150" alt="Sofa Like">
-    <h5>Native Features</h5>
-    <div class="left">
-      <p class="black">iPhone Native Features</p>
-      <p>Accelerometer</p>
-      <p>Camera</p>
-      <p>Compass</p>
-      <p>Contacts</p>
-      <p>GeoLocation</p>
-      <p>File</p>
-      <p>Media</p>
-      <p>Network</p>
-      <p>Notification (Alert)</p>
-      <p>Notification (Sound)</p>
-      <p>Storage</p>
-        </div>
-    <div class="right">
-      <p class="black">Android Native Features</p>
-      <p>Accelerometer</p>
-      <p>Camera</p>
-      <p>Compass</p>
-      <p>Contacts</p>
-      <p>GeoLocation</p>
-      <p>File</p>
-      <p>Media</p>
-      <p>Network</p>
-      <p>Notification (Alert)</p>
-      <p>Notification (Sound)</p>
-      <p>Storage</p>
-    </div>
-  </div>
-	<div class="footer">
-		<small>Copyright &copy; 2011 Dannis Designs</small>
-
-	</div>
-	<div class="clear"></div>
-</div>
+	
+		<div data-role="page" id="myvids" data-theme="b" data-add-back-btn="true">
+				<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Weekly Videos</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+				
+			 		<ul data-role="listview"> 
+					 	<li><a href="#video1"  >PhoneGap with iOS and Android </a></li>
+					 	<li><a href="#"  >Week 2</a></li>
+					 	<li><a href="#"  >Week 3</a></li>
+					 	<li><a href="#"  >Week 4</a></li>
+			 		</ul> 
+			 	
+			
+			</div><!-- End Content-->
+		
+			<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+			</div>		
 		</div>
 		
-				<div class="content info">
-			<div class="wrap">
-
-  <div class="facebook container">
-    <img src="images/port.png" width="430" height="150" alt="Sofa Like">
-    <h5>WHO I AM</h5>
-    <div class="left">
-      <p class="black">Info And Links about me!</p>
-		<p>Info</p> 
-		 </div>
-    <div class="right">
-	<p>Right Column</p>
- <p class="black">&mdash; Dannis</p>
-    </div>
-  </div>
-	<div class="footer">
-		<small>Copyright &copy; 2011 Dannis Designs</small>
-
-	</div>
-	<div class="clear"></div>
-</div>
-		</div>
 		
+			<div data-role="page" id="video1" data-theme="b" data-add-back-btn="true">
+				<div data-role="header" data-position="inline" data-theme="a">
+					<h1>Reflection Video 1  !</h1>
+				</div>
+	
+			<div data-role="content" data-theme="a">
+				<center>
+			 		<img src="images/me.jpg">
+			 	</center><br>
+			    <div class="video-container">
+				      <video poster="videos/week1.mov" controls>
+				        <source src="videos/week1.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+				      </video>
+				</div>
+				    
+
+			
+			</div><!-- End Content-->
+			
+		<div data-theme="a"  data-role="footer" data-position="fixed">
+			<center>-- Dan Annis 03/01/12 --</center>	
+		</div>		
+		</div>
+	
 	</div>
+	<!-- Some Scripts -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script
 </body>
 </html>
